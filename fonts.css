@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-BlackItalic.eot');
+  src: url('fonts/Epilogue-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-BlackItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-BlackItalic.woff') format('woff'),
+      url('fonts/Epilogue-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-ExtraBold.eot');
+  src: url('fonts/Epilogue-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-ExtraBold.woff2') format('woff2'),
+      url('fonts/Epilogue-ExtraBold.woff') format('woff'),
+      url('fonts/Epilogue-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-Bold.eot');
+  src: url('fonts/Epilogue-Bold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-Bold.woff2') format('woff2'),
+      url('fonts/Epilogue-Bold.woff') format('woff'),
+      url('fonts/Epilogue-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-BoldItalic.eot');
+  src: url('fonts/Epilogue-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-BoldItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-BoldItalic.woff') format('woff'),
+      url('fonts/Epilogue-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-Black.eot');
+  src: url('fonts/Epilogue-Black.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-Black.woff2') format('woff2'),
+      url('fonts/Epilogue-Black.woff') format('woff'),
+      url('fonts/Epilogue-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Light.eot');
+  src: url('fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-Light.woff2') format('woff2'),
+      url('fonts/Lato-Light.woff') format('woff'),
+      url('fonts/Lato-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-Medium.eot');
+  src: url('fonts/Epilogue-Medium.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-Medium.woff2') format('woff2'),
+      url('fonts/Epilogue-Medium.woff') format('woff'),
+      url('fonts/Epilogue-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-BlackItalic.eot');
+  src: url('fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-BlackItalic.woff2') format('woff2'),
+      url('fonts/Lato-BlackItalic.woff') format('woff'),
+      url('fonts/Lato-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-ExtraLight.eot');
+  src: url('fonts/Epilogue-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-ExtraLight.woff2') format('woff2'),
+      url('fonts/Epilogue-ExtraLight.woff') format('woff'),
+      url('fonts/Epilogue-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-ThinItalic.eot');
+  src: url('fonts/Epilogue-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-ThinItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-ThinItalic.woff') format('woff'),
+      url('fonts/Epilogue-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-Italic.eot');
+  src: url('fonts/Epilogue-Italic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-Italic.woff2') format('woff2'),
+      url('fonts/Epilogue-Italic.woff') format('woff'),
+      url('fonts/Epilogue-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Regular.eot');
+  src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-Regular.woff2') format('woff2'),
+      url('fonts/Lato-Regular.woff') format('woff'),
+      url('fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url('fonts/Lato-Hairline.eot');
+  src: url('fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-Hairline.woff2') format('woff2'),
+      url('fonts/Lato-Hairline.woff') format('woff'),
+      url('fonts/Lato-Hairline.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-SemiBold.eot');
+  src: url('fonts/Epilogue-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-SemiBold.woff2') format('woff2'),
+      url('fonts/Epilogue-SemiBold.woff') format('woff'),
+      url('fonts/Epilogue-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Italic.eot');
+  src: url('fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-Italic.woff2') format('woff2'),
+      url('fonts/Lato-Italic.woff') format('woff'),
+      url('fonts/Lato-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-Thin.eot');
+  src: url('fonts/Epilogue-Thin.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-Thin.woff2') format('woff2'),
+      url('fonts/Epilogue-Thin.woff') format('woff'),
+      url('fonts/Epilogue-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Black.eot');
+  src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-Black.woff2') format('woff2'),
+      url('fonts/Lato-Black.woff') format('woff'),
+      url('fonts/Lato-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-Light.eot');
+  src: url('fonts/Epilogue-Light.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-Light.woff2') format('woff2'),
+      url('fonts/Epilogue-Light.woff') format('woff'),
+      url('fonts/Epilogue-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-BoldItalic.eot');
+  src: url('fonts/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-BoldItalic.woff2') format('woff2'),
+      url('fonts/Lato-BoldItalic.woff') format('woff'),
+      url('fonts/Lato-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url('fonts/Lato-HairlineItalic.eot');
+  src: url('fonts/Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-HairlineItalic.woff2') format('woff2'),
+      url('fonts/Lato-HairlineItalic.woff') format('woff'),
+      url('fonts/Lato-HairlineItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-Regular.eot');
+  src: url('fonts/Epilogue-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-Regular.woff2') format('woff2'),
+      url('fonts/Epilogue-Regular.woff') format('woff'),
+      url('fonts/Epilogue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-LightItalic.eot');
+  src: url('fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-LightItalic.woff2') format('woff2'),
+      url('fonts/Lato-LightItalic.woff') format('woff'),
+      url('fonts/Lato-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Bold.eot');
+  src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Lato-Bold.woff2') format('woff2'),
+      url('fonts/Lato-Bold.woff') format('woff'),
+      url('fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-LightItalic.eot');
+  src: url('fonts/Epilogue-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-LightItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-LightItalic.woff') format('woff'),
+      url('fonts/Epilogue-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-MediumItalic.eot');
+  src: url('fonts/Epilogue-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-MediumItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-MediumItalic.woff') format('woff'),
+      url('fonts/Epilogue-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-ExtraLightItalic.eot');
+  src: url('fonts/Epilogue-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-ExtraLightItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-ExtraLightItalic.woff') format('woff'),
+      url('fonts/Epilogue-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-ExtraBoldItalic.eot');
+  src: url('fonts/Epilogue-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-ExtraBoldItalic.woff') format('woff'),
+      url('fonts/Epilogue-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('fonts/Epilogue-SemiBoldItalic.eot');
+  src: url('fonts/Epilogue-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Epilogue-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/Epilogue-SemiBoldItalic.woff') format('woff'),
+      url('fonts/Epilogue-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+

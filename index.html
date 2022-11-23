@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link data-trunk rel="css" href="normalize.css">
+    <link data-trunk rel="css" href="fonts.css">
+    <link data-trunk rel="copy-file" href="assets/ferris.svg">
+    <link data-trunk rel="copy-dir" href="assets/fonts" data-target-path="fonts"/>
+    <meta name="description" content="character counter written with the yew framework in rust">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link data-trunk rel="copy-file" href="manifest.json">
+    <link data-trunk rel="copy-file" href="assets/icon-256.png">
+    <link data-trunk rel="icon" href="assets/icon-256.png">
+    <link data-trunk rel="copy-file" href="service_worker.js">
+    <link rel="manifest" href="./manifest.json">
+
+    <title>Character Counter</title>
+
+    <script>
+      // register ServiceWorker
+      window.onload = () => {
+          'use strict';
+
+          if ('serviceWorker' in navigator) {
+              navigator.serviceWorker
+                      .register('./service_worker.js');
+          }
+      }
+  </script>
+  </head>
+</html>
