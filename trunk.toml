@@ -1,2 +1,4 @@
 [build]
+release = true
 filehash = false
+public_url = "/CharacterCounter.rs/"

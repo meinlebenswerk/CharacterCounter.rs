@@ -1,4 +1,6 @@
 # Character Counter
+[![Deploy to GithubPages](https://github.com/meinlebenswerk/CharacterCounter.rs/actions/workflows/pages.yml/badge.svg)](https://github.com/meinlebenswerk/CharacterCounter.rs/actions/workflows/pages.yml)
+
 A small yew based app to count characters and words.
 
 I have to write a lot of essays this semester and they all come with strict character limits.\
@@ -9,6 +11,10 @@ None of the come in dark mode :/
 
 Ah who am I kidding... I just wanted to try and write a web-app in Rust and try out [Yew](https://yew.rs/).
 
+
+## No Code! I just want to count characters, without my eyes bleeding!
+Yeah okay... the app is deployed [here](https://meinlebenswerk.github.io/CharacterCounter.rs/)
+
 ## Installation / Usage
 
 ### Prerequisites - Running Locally
@@ -17,5 +23,4 @@ Ah who am I kidding... I just wanted to try and write a web-app in Rust and try 
 - Then you're ready to install trunk: `cargo install trunk`
 - And voila, you can start the app locally by running `trunk serve`
 
-### I just want to count characters, without my eyes bleeding!
-Yeah I get you - the app should be deployed on github, soonish - I'll put the link here.
+Alternatively you can do a release build using `trunk build --release` and then serve the dist-folder with something like `npx serve dist`.
