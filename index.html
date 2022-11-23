@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/normalize-6d014136ddef2574.css">
+    <link rel="stylesheet" href="/fonts-be31e0bf290b508e.css">
+    
+    
+    <meta name="description" content="character counter written with the yew framework in rust">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    
+    <link rel="icon" href="/icon-256-7acf0ae78734c384.png">
+    
+    <link rel="manifest" href="./manifest.json">
+
+    <title>Character Counter</title>
+
+    <script>
+      // register ServiceWorker
+      window.onload = () => {
+          'use strict';
+
+          if ('serviceWorker' in navigator) {
+              navigator.serviceWorker
+                      .register('./service_worker.js');
+          }
+      }
+  </script>
+  
+<link rel="preload" href="/yew-cc-195d18c78e761ec3_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/yew-cc-195d18c78e761ec3.js"></head>
+<body><script type="module">import init from '/yew-cc-195d18c78e761ec3.js';init('/yew-cc-195d18c78e761ec3_bg.wasm');</script></body></html>
