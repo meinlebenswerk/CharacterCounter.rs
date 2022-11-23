@@ -117,7 +117,7 @@ fn info_overlay(props: &InfoOverlayProps) -> Html {
                     {"Usage should be fairly self-explanatory - but if you're stuck, try putting some text into the big text-field ;)"}
                     <br/>
                     {"Enjoy and take a look at the sources on "}
-                    <a href="https://yew.rs/">{"github"}</a>
+                    <a href="https://github.com/meinlebenswerk/CharacterCounter.rs">{"github"}</a>
                     {" if you want."}
                 </span>
             </div>
